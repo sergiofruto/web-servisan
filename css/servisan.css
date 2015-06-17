@@ -971,6 +971,42 @@ aside.clients{
     padding: 100px 0;
 }
 
+#contact .contact-info .side-info .fa-stack{
+    width: 38px;
+    height: 38px;
+    font-size: 38px;
+    line-height: initial;
+}
+
+#contact .contact-info .side-info{
+    padding: 0;
+    list-style: none;
+}
+
+#contact .contact-info .side-info li{
+    padding-bottom: 18px;
+}
+
+#contact .contact-info .side-info li span{
+    vertical-align: top;
+}
+
+.fa-clock-o{
+    padding-top: 10px;
+}
+
+#contact .contact-info .side-info p{
+    display: inline-block;
+    color: white;
+    font-family: 'Montserrat';
+    margin: 6px 0 6px 15px;
+}
+
+#contact .contact-info .text-muted-new{
+    font-size: 15px;
+    color: white;
+}
+
 @media (min-width: 768px) {
     #contact-page header .intro-text{
         padding-top: 185px;
