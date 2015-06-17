@@ -763,6 +763,33 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+
+section#products{
+
+}
+
+section#products .product-card{
+    width: 316px;
+    height: 120px;
+    padding-bottom: 15px;
+    float: left;
+    box-sizing: content-box;
+}
+
+section#products .product-card .product-img{
+    width: 120px;
+    height: 120px;
+    float: left;
+    background-color: black;
+}
+
+section#products .product-card .product-info{
+    width: 196px;
+    height: 120px;
+    float: left;
+    background-color: #f4f4f4;
+}
+
 footer {
     padding: 25px 0;
     text-align: center;
