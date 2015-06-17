@@ -694,10 +694,15 @@ aside.clients img {
 }
 
 section#contact {
+    padding: 90px 0 70px;
     background-color: #222;
     /*background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;*/
+}
+
+section#map{
+    padding: 0;
 }
 
 section#contact .section-heading {
