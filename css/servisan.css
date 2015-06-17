@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #337ab7;
+    color: #5179B6;
 }
 
 p {
@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #337ab7;
+    color: #5179B6;
 }
 
 a:hover,
@@ -69,12 +69,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #337ab7;
+    border-color: #5179B6;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #337ab7;
+    background-color: #5179B6;
 }
 
 .btn-primary:hover,
@@ -108,36 +108,36 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #337ab7;
-    background-color: #337ab7;
+    border-color: #5179B6;
+    background-color: #5179B6;
 }
 
 .btn-primary .badge {
-    color: #337ab7;
+    color: #5179B6;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #337ab7;
+    border-color: #5179B6;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #337ab7;
+    background-color: #5179B6;
 }
 
 .btn-custom {
     padding: 20px 40px;
-    border:3px solid #337ab7;
+    border:3px solid #5179B6;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #337ab7;
+    color: #5179B6;
 }
 
 .btn-custom:hover,
@@ -146,14 +146,14 @@ fieldset[disabled] .btn-primary.active {
 .btn-custom.active,
 .open .dropdown-toggle.btn-custom {
     padding: 20px 40px;
-    border:3px solid #337ab7;
+    border:3px solid #5179B6;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #337ab7;
+    background-color: #5179B6;
 
 }
 
@@ -168,8 +168,8 @@ fieldset[disabled] .btn-primary.active {
 #contact .btn-custom:active,
 #contact .btn-custom.active,
 #contact .open .dropdown-toggle.btn-custom {
-   background-color: #337ab7;
-   border:3px solid #337ab7;
+   background-color: #5179B6;
+   border:3px solid #5179B6;
 }
 
 .btn-xl:hover,
@@ -203,12 +203,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #337ab7;
-    background-color: #337ab7;
+    border-color: #5179B6;
+    background-color: #5179B6;
 }
 
 .btn-xl .badge {
-    color: #337ab7;
+    color: #5179B6;
     background-color: #fff;
 }
 
@@ -219,7 +219,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #337ab7;
+    color: #5179B6;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -234,8 +234,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #337ab7;
-    background-color: #337ab7;
+    border-color: #5179B6;
+    background-color: #5179B6;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -244,7 +244,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #337ab7;
+    background-color: #5179B6;
 }
 
 .navbar-default .nav li a {
@@ -258,13 +258,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #337ab7;
+    color: #5179B6;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #337ab7;
+    background-color: #5179B6;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -330,12 +330,18 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
+header .home-scroll{
+    font-size: 40px;
+    color: white;
+    padding: 18px 0;
+    display: inline-block;
+}
 
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 230px;
+        padding-bottom: 120px;
     }
 
     header .intro-text .intro-lead-in {
@@ -529,7 +535,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #337ab7;
+    background-color: #5179B6;
 }
 
 .timeline>li .timeline-image h4 {
@@ -716,7 +722,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #337ab7;
+    border-color: #5179B6;
     box-shadow: none;
 }
 
@@ -794,7 +800,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #337ab7;
+    background-color: #5179B6;
 }
 
 .btn:focus,
@@ -882,12 +888,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #337ab7;
+    background: #5179B6;
 }
 
 ::selection {
     text-shadow: none;
-    background: #337ab7;
+    background: #5179B6;
 }
 
 img::selection {
@@ -899,7 +905,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #337ab7;
+    webkit-tap-highlight-color: #5179B6;
 }
 
 /*styles that were in servisan.css"*/
@@ -909,7 +915,7 @@ header {
 }
 
 .navbar-default .navbar-nav>.active>a{
-    background-color: #337ab7;
+    background-color: #5179B6;
 }
 
 header .intro-text .intro-heading{
@@ -945,7 +951,7 @@ p.text-muted-new{
 }
 
 .text-primary{
-    color: #337ab7;
+    color: #5179B6;
 }
 
 /*
