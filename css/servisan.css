@@ -1054,3 +1054,13 @@ aside.clients{
         padding-bottom: 130px;        
     }
 }
+
+.map-frame{
+    width: 100%;
+    height: 510px;
+}
+
+.map-container{
+    padding-left:0;
+    padding-right:0;
+}
