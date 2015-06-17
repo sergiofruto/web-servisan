@@ -340,8 +340,8 @@ header .home-scroll{
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 125px;
+        padding-top: 230px;
+        padding-bottom: 120px;
     }
 
     header .intro-text .intro-lead-in {
