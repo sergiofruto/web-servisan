@@ -157,6 +157,21 @@ fieldset[disabled] .btn-primary.active {
 
 }
 
+#contact .btn-custom {
+    background: #222;
+    border:3px solid #fff;
+    color: #fff;
+}
+
+#contact .btn-custom:hover,
+#contact .btn-custom:focus,
+#contact .btn-custom:active,
+#contact .btn-custom.active,
+#contact .open .dropdown-toggle.btn-custom {
+   background-color: #337ab7;
+   border:3px solid #337ab7;
+}
+
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
