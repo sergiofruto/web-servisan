@@ -801,6 +801,17 @@ section#products .product-card .product-img{
     background-color: black;
 }
 
+section#products .product-card .product-img img{
+    max-width: 100%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 section#products .product-card .product-info{
     width: 196px;
     height: 120px;
@@ -813,8 +824,9 @@ section#products .products-row{
     margin-bottom: 75px;
 }
 
-
-section#products .product-info h2,p,span{
+section#products .product-info h2,
+section#products .product-info p,
+section#products .product-info span{
     margin-left: 20px;
 }
 
@@ -826,7 +838,8 @@ section#products .product-info h2{
 }
 
 
-section#products .product-info p,span{
+section#products .product-info p,
+section#products .product-info span{
     font-size: 12px;
     line-height: 1.25;
 }
