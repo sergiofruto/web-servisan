@@ -1149,3 +1149,9 @@ aside.clients{
 .principios li{
     margin-bottom: 25px;
 }
+
+.product-box{
+    text-align: center;
+    background: #FFFFFF;
+    margin:5px;
+}
