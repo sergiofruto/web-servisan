@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
@@ -369,7 +369,7 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 35px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 section h3.section-subheading {
@@ -790,6 +790,31 @@ section#products .product-card .product-info{
     background-color: #f4f4f4;
 }
 
+/* No sé como poner esto para que lo tome solo para los textitos de las tarjetitas de productos*/
+section#products .products-row{
+    margin-bottom: 75px;
+}
+
+
+section#products .product-info h2,p,span{
+    margin-left: 20px;
+}
+
+
+section#products .product-info h2{
+    font-size: 20px;
+    margin-top: 15px;
+    color:#5179B6;
+}
+
+
+section#products .product-info p,span{
+    font-size: 12px;
+    line-height: 1.25;
+}
+
+/*hasta acá agregué*/
+
 footer {
     padding: 25px 0;
     text-align: center;
@@ -1101,4 +1126,26 @@ aside.clients{
 .map-container{
     padding-left:0;
     padding-right:0;
+}
+
+
+.principios{
+    list-style: none;
+    text-align: center;
+    padding:0;
+}
+
+.principios li h3{
+    font-size: 18px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.principios li p {
+    font-size: 13px;  
+}
+
+.principios li{
+    margin-bottom: 25px;
 }
