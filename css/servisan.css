@@ -463,6 +463,24 @@ section h3.section-subheading {
     z-index: 2;
 }
 
+#portfolio{
+    background-color: #f7f7f7;
+}
+
+#portfolio .principios li{
+    background-color: #fff;
+    padding: 5px 14px;
+    box-shadow: 2px 2px 11px -6px;
+}
+
+#portfolio .principios li p{
+    margin-left: 0;
+}
+
+#portfolio .text-muted-new{
+    margin-left: 0;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
