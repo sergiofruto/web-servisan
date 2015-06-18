@@ -754,6 +754,18 @@ section h3.section-subheading {
     border-right: 52px solid transparent;
 }
 
+.hex-container .hex:hover{
+    background-color: #F58787;
+}
+
+.hex-container .hex:hover:after{
+    border-top: 30px solid #F58787;
+}
+
+.hex-container .hex:hover:before{
+    border-bottom: 30px solid #F58787;
+}
+
 aside.clients img {
     margin: 50px auto;
 }
