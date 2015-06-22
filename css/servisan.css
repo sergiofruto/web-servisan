@@ -807,6 +807,7 @@ section#services .service-card{
   width: 100%;
   float: left;
   position: relative;
+  margin-bottom: 50px;
 }
 
 section#services .service-card span{
