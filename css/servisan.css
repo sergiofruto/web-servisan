@@ -709,7 +709,7 @@ section h3.section-subheading {
 
 .hex-container{
     float: left;
-    width: 470px;
+    width: auto;
 }
 
 .hex-container ol{
@@ -718,29 +718,45 @@ section h3.section-subheading {
     list-style: none;
 }
 
+.hex-container ol.odd{
+    margin-bottom: 18px;
+}
+
 .hex-container ol.even{
-    margin: -6px 0 0 66px;
+    margin: -6px 0 0 73px;
 }
 
 .hex-container .hex:before {
     content: " ";
     width: 0;
     height: 0;
-    border-bottom: 38px solid #6C6;
+    border-bottom: 38px solid #fff;
     border-left: 65px solid transparent;
     border-right: 65px solid transparent;
     position: absolute;
     top: -38px;
+    transition: border-bottom 500ms ease;
 }
 
 .hex-container .hex {
     margin-top: 38px;
     width: 130px;
     height: 76px;
-    background-color: #6C6;
+    background-color: #fff;
     position: relative;
     float: left;
+    margin-right: 14px;
     margin-left: 4px;
+    transition: background-color 500ms ease;
+}
+
+.hex-container .hex p{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #5179B6;
+  transition: color 500ms ease;
 }
 
 .hex-container .hex:after {
@@ -748,21 +764,26 @@ section h3.section-subheading {
     width: 0;
     position: absolute;
     bottom: -38px;
-    border-top: 38px solid #6C6;
+    border-top: 38px solid #fff;
     border-left: 65px solid transparent;
     border-right: 65px solid transparent;
+    transition: border-top 500ms ease;
 }
 
 .hex-container .hex:hover:before{
-    border-bottom: 38px solid #F58787;
+    border-bottom: 38px solid #5179B6;
 }
 
 .hex-container .hex:hover{
-    background-color: #F58787;
+    background-color: #5179B6;
+}
+
+.hex-container .hex:hover p{
+  color: white;
 }
 
 .hex-container .hex:hover:after{
-    border-top: 38px solid #F58787;
+    border-top: 38px solid #5179B6;
 }
 
 aside.clients img {
