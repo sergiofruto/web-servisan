@@ -769,6 +769,45 @@ aside.clients img {
     margin: 50px auto;
 }
 
+section#services{
+  padding: 60px 0 100px;
+}
+
+section#services .section-heading{
+  padding-bottom: 45px;
+}
+
+section#services .service-card{
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+section#services .service-card span{
+  margin: 0 auto;
+  display: block;
+  font-size: 45px;
+}
+
+section#services .service-card .service-header{
+  height: 160px;
+  background-color: #333333;
+}
+
+section#services .service-card .service-body{
+  height: 260px;
+  background-color: #f3f3f3;
+}
+
+section#services .service-card .service-content{
+  background-color: #fff;
+  position: absolute;
+  bottom: 30px;
+  left: 45px;
+  width: 270px;
+  height: 300px;
+}
+
 section#contact {
     padding: 90px 0 70px;
     background-color: #222;
@@ -1094,7 +1133,7 @@ h4.subheading-new{
 
 p.text-muted-new{
     font-size: 19px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;    
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-primary{
@@ -1114,7 +1153,7 @@ p.text-muted-new{
     margin-left: 66px;
     margin-top: 20px;
 }
- 
+
 .diamond-grid .diamond {
     height: 160px;
     width: 160px;
@@ -1204,7 +1243,7 @@ aside.clients{
 @media (min-width: 768px) {
     #contact-page header .intro-text{
         padding-top: 185px;
-        padding-bottom: 130px;        
+        padding-bottom: 130px;
     }
 }
 
@@ -1233,7 +1272,7 @@ aside.clients{
 }
 
 .principios li p {
-    font-size: 13px;  
+    font-size: 13px;
 }
 
 .principios li{
