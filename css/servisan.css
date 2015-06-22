@@ -808,6 +808,7 @@ section#services .service-card{
   float: left;
   position: relative;
   margin-bottom: 50px;
+  box-shadow: 2px 2px 11px -6px;
 }
 
 section#services .service-card span{
@@ -923,9 +924,10 @@ section#products{
 section#products .product-card{
     width: 316px;
     height: 120px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
     float: left;
     box-sizing: content-box;
+    box-shadow: 2px 2px 11px -6px;
 }
 
 section#products .product-card .product-img{
