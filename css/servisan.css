@@ -755,13 +755,14 @@ section h3.section-subheading {
     transition: background-color 500ms ease;
 }
 
-.hex-container .hex p{
+.hex-container .hex a{
   text-align: center;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   color: #5179B6;
   transition: color 500ms ease;
+  display: block;
 }
 
 .hex-container .hex:after {
@@ -783,8 +784,9 @@ section h3.section-subheading {
     background-color: #5179B6;
 }
 
-.hex-container .hex:hover p{
-  color: white;
+.hex-container .hex:hover a{
+    color: white;
+    text-decoration: none;
 }
 
 .hex-container .hex:hover:after{
