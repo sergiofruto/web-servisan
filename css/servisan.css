@@ -4,6 +4,49 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/* Custom Icons Fonts */
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?-7zjw5a');
+    src:url('../fonts/icomoon.eot?#iefix-7zjw5a') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?-7zjw5a') format('truetype'),
+        url('../fonts/icomoon.woff?-7zjw5a') format('woff'),
+        url('../fonts/icomoon.svg?-7zjw5a#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cortinados:before {
+    content: "\e600";
+}
+.icon-guantes:before {
+    content: "\e601";
+}
+.icon-rollo-toalla:before {
+    content: "\e602";
+}
+.icon-toallas:before {
+    content: "\e603";
+}
+.icon-uniforme:before {
+    content: "\e604";
+}
+
+
 body {
     overflow-x: hidden;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -322,12 +365,24 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
+header .intro-text .intro-heading {
+    max-width: 100%;
+    font-size: 28px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
-    font-style: italic;
+    font-size: 15px;
+    font-style: normal;
     line-height: 22px;
+    text-align: center;
+    margin-top: 30px;
 }
 
 header .home-scroll{
@@ -337,28 +392,28 @@ header .home-scroll{
     display: inline-block;
 }
 
-
-@media(min-width:768px) {
+@media (min-width: 768px) {
     header .intro-text {
         padding-top: 230px;
         padding-bottom: 120px;
     }
 
     header .intro-text .intro-lead-in {
+        margin-top: 0px;
         margin-bottom: 25px;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
-        font-style: italic;
+        font-size: 20px;
+        font-style: normal;
         line-height: 40px;
+        text-align: left;
+
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
+        font-size: 38px;
+        line-height: 45px;
+        text-align: left;
+        max-width: 58%;
+        margin-bottom: 10px;
     }
 }
 
@@ -819,9 +874,24 @@ section#services .service-card span{
   font-size: 45px;
 }
 
+section#services span.icon-circle{
+    width: 100px;
+    height: 100px;
+    background-color: #5179B6;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+section#services span.icon-circle i{
+    font-size: 4em;
+    color: white;
+    line-height: 1.7;
+}
+
 section#services .service-card .service-header{
   height: 160px;
-  background-color: #333333;
+  background-color: #5179B6;
 }
 
 section#services .service-card .service-body{
@@ -846,6 +916,7 @@ section#services .service-card .service-content{
 
 .service-content p{
     margin: 0 15px;
+    text-align: center;
 }
 
 section#contact {
@@ -1144,7 +1215,7 @@ header {
 .navbar-default .navbar-nav>.active>a{
     background-color: #5179B6;
 }
-
+/*
 header .intro-text .intro-heading{
     font-size: 38px;
     line-height: 45px;
@@ -1155,14 +1226,15 @@ header .intro-text .intro-heading{
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
-
+*/
+/*
 header .intro-text .intro-lead-in{
     font-size: 20px;
     font-style: NORMAL;
     line-height: 40px;
     text-align: left;
 }
-
+/*
 section{
     padding: 100px 0;
 }
@@ -1180,66 +1252,6 @@ p.text-muted-new{
 .text-primary{
     color: #5179B6;
 }
-
-/*
-.diamond-grid {
-    width: 100%;
-    margin: 0 auto;
-    padding-right: 10px;
-}
-
-.diamond-grid li {
-    list-style: none;
-    float: left;
-    margin-left: 66px;
-    margin-top: 20px;
-}
-
-.diamond-grid .diamond {
-    height: 160px;
-    width: 160px;
-    background: transparent;
-    color: #fff;
-    display: block;
-    overflow: hidden;
-    position: relative;
-    text-decoration: none;
-    border: 3px solid #fff;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.diamond-grid .text{
-    width: 170px;
-    height: 170px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
-    text-transform: uppercase;
-    padding: 0 10px;
-    display: table-cell;
-    vertical-align: middle;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    text-align: center;
-}
-
-.diamond-grid > li:nth-child(9n+6) {
-    margin-left: 66px;
-    margin-top: -6px;
-}
-.diamond-grid > li:nth-child(3) {
-    margin-left: 182px;
-}
-.diamond-grid > li:nth-child(n+3) {
-    margin-top: -51px;
-}
-*/
 
 aside.clients{
     padding: 100px 0;
